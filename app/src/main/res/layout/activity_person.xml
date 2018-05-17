@@ -10,6 +10,7 @@
         android:id="@+id/person_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:orientation="vertical"
         android:padding="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,15 +22,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="How many people?"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/person_text"
-            android:layout_width="match_parent"
+            android:layout_width="64dp"
             android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="XX"
+            android:inputType="number"
+            android:maxLength="2"
             android:textSize="24sp" />
 
         <Button
+            android:id="@+id/person_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
