@@ -21,6 +21,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/choice_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -29,6 +30,7 @@
             android:textSize="18sp" />
 
         <Button
+            android:id="@+id/choice_next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
